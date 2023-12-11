@@ -1,0 +1,49 @@
+*{
+    margin:0 ;
+    padding: 0;
+ 
+}
+/* body
+{
+  width: max-content;
+  height:max-content;
+background-color: linear-gradient(1000deg,violet,Indigo,blue,Green,Yellow,Orange,Red);
+} */
+
+/* Add a background color to the top navigation */
+.topnav {
+  /* margin-inline-start: 10%; */
+  cursor:pointer;
+  /* display: inline-block ; */
+  list-style-type: disc;
+  /* padding-inline-start: 40px; */
+ background:linear-gradient(90deg, Red, Orange, Yellow, Green, Blue, Indigo,violet);
+    overflow: hidden;
+    text-align:center;
+  }
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    /* float: left; */
+    line-height: 40px;
+    color: #f2f2f2;
+    text-align: center;
+    /* padding: 40px; */
+    padding-left: 80px;
+    margin: 9px;
+    text-decoration: double;
+    text-shadow: #f2f2f2;
+    font-size:large;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    /* background-color: #2c47de; */
+    font-family:sans-serif;
+    color: #e3a6cf;
+    text-shadow: -2px 0px 0px rgba(0, 0, 0, 1),2px 0px 0px rgba(0, 0, 0, 1),0px -2px 0px rgba(0, 0, 0, 1),0px 2px 0px rgba(0, 0, 0, 1),4px 4px 0px rgba(45, 199, 255, 1);
+    
+  }
+  /* .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }  */
